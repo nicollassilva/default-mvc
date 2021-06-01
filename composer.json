@@ -1,0 +1,18 @@
+{
+    "name": "nicollas/htdocs",
+    "authors": [
+        {
+            "name": "Nicollas",
+            "email": "lyod.hp@gmail.com"
+        }
+    ],
+    "require": {
+        "nicollassilva/minasorm": "^0.17.0",
+        "coffeecode/router": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
